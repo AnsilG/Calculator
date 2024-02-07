@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url('https://cdn.pixabay.com/photo/2024/01/28/10/18/mountains-8537302_640.jpg');
+    background-size: cover;
+}
+
+.calculator{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    box-shadow:  0px 3px 15px rgb(0, 0, 0 , 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+input{
+    width: 320px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    text-shadow:0px 1px 5px rgb(0, 0, 0, 0.);
+    padding: 24px;
+    margin: 10px;
+    background-color:rgba(205, 198, 198, 0.617);
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 0, 0.3);
+    font-size: 65px;
+    text-align: right;
+    cursor: pointer;
+    color:#fff;
+}
+input::placeholder{
+    color: #fff;
+}
+
+
+
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border:1px solid rgb(255,255, 255,0.2);
+    background:rgba(0,0,0,0.7);
+    box-shadow: inset 1px 2px 10px (0,0,0,0.5);
+    text-shadow: 0px,1px,5px(0,0,0,0.2);
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+
+button:active{
+    border:2px solid #000000;
+    background:linear-gradient(145deg,#111111,#353335);
+    box-shadow: inset 1px 1px 3px #414141,
+    inset -2px -2px 3px #0e0e0e;
+    transform: scale(1);
+    color: whitesmoke;
+}
+.operatorBtn{
+   color: #f07c14;
+
+}
+.allClearBtn{
+    font-size: 20px;
+    color: #f07c14;
+}
+button:hover{
+    color: #fff;
+    background-color: #f07c14;
+}
+.equalBtn{
+    background-color: #f07c14 ;
+}
+.singleClearBtn{
+    color: #f07c14;
+}
+/* .operatorBtn:active{
+    border:2px solid #090909;
+    background:linear-gradient(145deg,#000000,#242424c4);
+    box-shadow: inset 1px 1px 3px #3d3d3d,
+    inset -2px -2px 3px #000000;
+    transform: scale(1);
+    color: whitesmoke;
+} */
+/* .equalBtn{
+    border:1px solid #090909;
+    background:linear-gradient(145deg,rgb(121, 48, 0),rgb(252, 137, 43));
+    box-shadow: inset 1px 1px 3px #faa249,
+    inset -2px -2px 3px #643301;
+    color: wheat;
+} */
+/* .equalBtn:active{
+    border:2px solid #090909;
+    background:linear-gradient(145deg,rgb(122, 49, 0),rgb(255, 133, 32));
+    box-shadow: inset 1px 1px 3px #ff8c18,
+    inset -2px -2px 3px #4b2500;
+    transform: scale(1);
+    color: whitesmoke;
+} */
+
+/* .allClearBtn{
+    border:1px solid #090909;
+    background:linear-gradient(145deg,#5e0000,rgb(255, 35, 35));
+    box-shadow: inset 1px 1px 3px #ff5454,
+    inset -2px -2px 3px #2e0000;
+    color: wheat;
+} */
+/* .allClearBtn:active{
+    border:2px solid #090909;
+    background:linear-gradient(145deg,#530000,rgb(255, 22, 22));
+    box-shadow: inset 1px 1px 3px #ff2323,
+    inset -2px -2px 3px #1b0000;
+    transform: scale(1);
+    color: whitesmoke;
+} */
+
+/* .singleClearBtn{
+    border:1px solid #090909;
+    background:linear-gradient(145deg,#0a3300,rgb(61, 255, 93));
+    box-shadow: inset 1px 1px 3px #70ff4f,
+    inset -2px -2px 3px #062200;
+    color: wheat;
+    font-size: 16px; 
+    
+}*/
+/* .singleClearBtn:active{
+    border:2px solid #090909;
+    background:linear-gradient(145deg,#092c00,rgb(39, 255, 75));
+    box-shadow: inset 1px 1px 3px #50ff28,
+    inset -2px -2px 3px #051d00;
+    transform: scale(1);
+    color: whitesmoke;
+} */
